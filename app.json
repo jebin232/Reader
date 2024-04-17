@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Memory Keeper",
+    "slug": "reader_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Capture.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-black.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/321728b9-e4b9-4e00-a4a9-3c01de4bf1f2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Capture.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jebin_232.reader_app"
+    },
+    "web": {
+      "favicon": "./assets/Capture.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "321728b9-e4b9-4e00-a4a9-3c01de4bf1f2"
+      }
+    },
+    "plugins": [
+      "expo-build-properties"
+    ]
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-2894773605975425~5779152352"
+  }
+}
